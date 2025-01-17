@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Snake
+	    </title>
+        <link rel="stylesheet" href="snake/snakeStyle.css">
+        <link rel="stylesheet" href="src/output.css">
+    </head>
+<body>
+    <div id="main" class="w-1/2 bg-white rounded-xl block ml-auto mr-auto custom-my py-5">
+    <center>
+        <canvas id="canvas" width="450" height="300"></canvas>
+        <br>
+        <b class="sq">How to play: </b><p>Use <big>W A S D</big> to move the snake around the board. If you touch the black squares <br> your dead. To play again you must click the OK button when "Game over! Player scored (score)".<br> The red squares are fruit. If you collide with them, you will eat them and gain one score. <br> The snake will also grow one square longer.</p>
+        <button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800" onclick="gameControl.startGame()">PLAY</button>
+        <a href="home.html"><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800">HOME PAGE</button></a>
+    </center>
+    </div>
+    <script src="snake/snakeScript.js"></script>
+</body>
+</html>

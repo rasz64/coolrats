@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body onload="callCookie()">
+    <div id="main" class="w-1/2 block ml-auto mr-auto bg-white rounded-3xl py-5 custom-my"><center><b class="text-3xl sq tracking-widest">Welcome <span id="user"></span></b><br><b class="text-2xl sq tracking-widest" id="text">You can quickly go where you want by the<br>buttons down below, or just scroll down</b><br><br><a href="#games"><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800">GAMES</button></a> <a href="#guns"><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800">GUNS</button></a> <a href="#ascii"><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800">ASCII ART</button></a><br><br><b class="sq text-2xl tracking-widest" id="text">If you are a new user, then you<br>should read this.<br><br>This website is mostly just<br>a website for entertainment.<br>It has games, a shooting range,<br>ASCII Art, you name it!<br><br>If you would like to contact me go <a href="contact.html" class="text-blue-800 hover:underline decoration-4">here.</a><br>There you can send an email!</b><br><br><br><br><b class="sq text-3xl tracking-widest" id="games">GAMES</b><br><a href="snake.html" class="text-blue-700 hover:underline"><b>Snake</b></a><br><a href="pong.html" class="text-blue-700 hover:underline"><b>PONG</b></a><br><br><br><br><b class="sq text-3xl" id="guns">SHOOTING RANGE</b><br><img src="pictures/m4gun.png" id="m4gun" class="w-25 h-20"><br><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800" onclick="shoot1()">Shoot</button><br><br><br><img src="pictures/ak-47.png" id="ak-47" class="w-25 h-20"><br><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800" onclick="shoot2()">Shoot</button><br><br><br><img src="pictures/m1garand.png" id="m1garand" class="w-40 h-25"><br><button class="py-1 px-1.5 bg-gray-500 text-white rounded-2xl border-2 border-gray-700 border-opacity-30 hover:bg-gray-600 hover:border-gray-800" onclick="shoot3()">Shoot</button></center></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(orange, #ff8300, orange);
+}
+
+@media only screen and (max-device-width: 480px) {
+    #main {
+        width: 90%;
+    }
+
+    #text {
+        font-size: small;
+    }
+}
+
+@font-face {
+    font-family: sq;
+    src: url(fonts/kirsty.otf);
+}
+
+.sq {
+    font-family: sq;
+}
+
+.custom-my {
+    margin-top: 2.5%;
+}
