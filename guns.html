@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting range</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <center>
+        <div id="main" class="w-2/3 bg-white rounded-xl custom-my py-5">
+            <b class="sq text-3xl">Shooting range</b><br>
+            <div id="bar" class="rounded-xl bg-gray-700 w-2/3 py-1">
+                <button onclick="location.href='home.html'" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">Home</button>
+                <button onclick="location.href='guns.html'" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">Shooting range</button>
+                <button onclick="location.href='ascii.html'" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">ASCII-Art</button>
+                <button onclick="location.href='coolrat.html'" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">Cool-Rat-Checker-123</button>
+            </div><br>
+            <img src="pictures/m4gun.png" id="m4gun" class="w-25 h-20">
+            <button onclick="shoot1()" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">Shoot</button>
+            <img src="pictures/ak-47.png" id="ak-47" class="w-25 h-20">
+            <button onclick="shoot2()" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">Shoot</button>
+            <img src="pictures/m1garand.png" id="m1garand" class="w-40 h-25">
+            <button onclick="shoot3()" class="text-white rounded-xl bg-gray-500 border-2 border-gray-600 px-2 hover:border-gray-800 hover:border-opacity-20 hover:bg-gray-600">Shoot</button>
+        </div>
+    </center>
+
+    <script src="gunScript.js"></script>
+</body>
+</html>
