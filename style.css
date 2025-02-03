@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     background: linear-gradient(to bottom right, #ff5a00, orange);
+    overflow: hidden;
 }
 
 @media only screen and (max-device-width: 480px) {
